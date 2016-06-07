@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>1.哪些人群不能使用“疗疗失眠”？</string>
+		<key>answer</key>
+		<string>答：（1）孕妇禁用；
+       （2）癫痫病患者或有家族癫痫病遗传史者；
+       （3）体内植入电子设备如心脏起搏器或胰岛素泵的患者；	
+       （4）近期脑出血性卒中病人或者脑部有外伤和病变的患者；</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>2.使用过程中出现头痛／眩晕／恶心等不良反应怎么办？</string>
+		<key>answer</key>
+		<string>答：首先不要惊慌，出现该症状是由于刺激强度或刺激频率过大引起的，应立即减小刺激强度或刺激频率，症状未消失时停止使用并及时向医生咨询。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>3.使用前查看毛毡是否干净？</string>
+		<key>answer</key>
+		<string>答：使用前查看毛毡是否干净，防止毛毡放置弄脏后使用，引起表皮细菌感染导致耳垂皮肤发红。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>4.使用前查看毛毡是否湿润？</string>
+		<key>answer</key>
+		<string>答：使用前查看毛毡是否湿润，防止刺激面积过小导致耳垂刺激不均匀。</string>
+	</dict>
+</array>
+</plist>

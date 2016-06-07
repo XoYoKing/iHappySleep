@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FreeBindViewController">
+            <connections>
+                <outlet property="FreeBindButton" destination="NPT-lD-q9c" id="q58-Uc-iZG"/>
+                <outlet property="Label_One" destination="tQT-W2-yk6" id="ZCg-bG-Mxj"/>
+                <outlet property="Label_Two" destination="ej8-BM-0Rh" id="NUb-kE-447"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-W2-yk6">
+                    <rect key="frame" x="22" y="383" width="335" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej8-BM-0Rh">
+                    <rect key="frame" x="37" y="443" width="303" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPT-lD-q9c">
+                    <rect key="frame" x="22" y="523" width="335" height="39"/>
+                    <color key="backgroundColor" red="0.065292198460000006" green="0.52483437430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="FreeBindButtonClick:" destination="-1" eventType="touchUpInside" id="fRi-46-xVN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="tintColor" red="0.065292198460000006" green="0.52483437430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="NPT-lD-q9c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="43F-uK-qRY"/>
+                <constraint firstAttribute="trailing" secondItem="tQT-W2-yk6" secondAttribute="trailing" constant="18" id="HAL-Xs-1g1"/>
+                <constraint firstAttribute="trailing" secondItem="ej8-BM-0Rh" secondAttribute="trailing" constant="35" id="K3U-O3-AlV"/>
+                <constraint firstAttribute="bottom" secondItem="NPT-lD-q9c" secondAttribute="bottom" constant="105" id="SNq-qC-xbL"/>
+                <constraint firstItem="tQT-W2-yk6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="UDe-EM-YZY"/>
+                <constraint firstItem="ej8-BM-0Rh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="37" id="Uhk-VS-KlJ"/>
+                <constraint firstAttribute="bottom" secondItem="tQT-W2-yk6" secondAttribute="bottom" constant="251" id="bcH-Hy-MSP"/>
+                <constraint firstAttribute="bottom" secondItem="ej8-BM-0Rh" secondAttribute="bottom" constant="174" id="ili-qn-F6t"/>
+                <constraint firstAttribute="trailing" secondItem="NPT-lD-q9c" secondAttribute="trailing" constant="18" id="wye-h9-EHA"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>
